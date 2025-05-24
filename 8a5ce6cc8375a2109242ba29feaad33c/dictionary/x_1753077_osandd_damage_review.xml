@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0873be0883b5a2109242ba29feaad3ab" label="Damage Review" max_length="40" name="x_1753077_osandd_damage_review" type="collection">
+        <element label="OSD Request" max_length="32" name="osd_request" reference="x_1753077_osandd_osd_request" type="reference"/>
+        <element label="Inspection Date" max_length="40" name="inspection_date" type="glide_date_time"/>
+        <element label="Note" max_length="40" name="note" type="string"/>
+        <element label="Inspected By" max_length="32" name="inspected_by" reference="sys_user" type="reference"/>
+        <element label="Damage Confirmed" max_length="40" name="damage_confirmed" type="boolean"/>
+        <index name="index">
+            <element name="inspected_by"/>
+        </index>
+        <index name="index2">
+            <element name="osd_request"/>
+        </index>
+    </element>
+</database>

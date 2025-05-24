@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 09:30:56</sys_created_on>
+        <sys_id>4370be0483b5a2109242ba29feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1753077_osandd_customer.x_1753077_osandd.admin</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_security_acl display_value="x_1753077_osandd_customer">cb707e0483b5a2109242ba29feaad3d8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4370be0483b5a2109242ba29feaad31a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 09:30:56</sys_updated_on>
+        <sys_user_role display_value="x_1753077_osandd.admin" name="x_1753077_osandd.admin">6a5ce6cc8375a2109242ba29feaad343</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

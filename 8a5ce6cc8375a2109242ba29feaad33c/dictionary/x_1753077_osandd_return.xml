@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9c54b28883b5a2109242ba29feaad371" label="Return" max_length="40" name="x_1753077_osandd_return" type="collection">
+        <element label="Return Authorized" max_length="40" name="return_authorized" type="boolean"/>
+        <element label="Pickup Scheduled Date" max_length="40" name="pickup_scheduled_date" type="glide_date_time"/>
+        <element label="Return Completed On" max_length="40" name="return_completed_on" type="glide_date_time"/>
+        <element label="OSD Request" max_length="32" name="osd_request" reference="x_1753077_osandd_osd_request" type="reference"/>
+        <element label="Product Received Back" max_length="40" name="product_received_back" type="boolean"/>
+        <element label="Pickup Location" max_length="40" name="pickup_location" type="string"/>
+        <index name="index">
+            <element name="osd_request"/>
+        </index>
+    </element>
+</database>

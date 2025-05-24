@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bb82bac483b5a2109242ba29feaad3a9" label="Shipment" max_length="40" name="x_1753077_osandd_shipment" type="collection">
+        <element label="Carrier" max_length="40" name="carrier" type="string"/>
+        <element label="Delivered Quantity" max_length="40" name="delivered_quantity" type="integer"/>
+        <element label="Expected Delivery" max_length="40" name="expected_delivery" type="glide_date_time"/>
+        <element choice="1" label="Delivery Status" max_length="40" name="delivery_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Failed" sequence="1" value="failed"/>
+                <element inactive_on_update="false" label="Delayed" sequence="2" value="delayed"/>
+                <element inactive_on_update="false" label="Delivered" sequence="0" value="delivered"/>
+            </choice>
+        </element>
+        <element label="Actual Delivery" max_length="40" name="actual_delivery" type="glide_date_time"/>
+        <element label="Shipment_id" max_length="40" name="shipment_id" type="string"/>
+        <element label="Tracking Number" max_length="40" name="tracking_number" type="string"/>
+    </element>
+</database>
