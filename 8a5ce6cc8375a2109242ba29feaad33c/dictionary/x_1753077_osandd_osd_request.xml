@@ -18,15 +18,15 @@
             </choice>
         </element>
         <element label="Short Description" max_length="40" name="short_description" type="string"/>
-        <element label="Descriptioin" max_length="40" name="descriptioin" type="string"/>
+        <element label="Description" max_length="40" name="descriptioin" type="string"/>
         <element label="Reported Date" max_length="40" name="reported_date" type="glide_date_time"/>
         <element label="Resolution Note" max_length="40" name="resolution_note" type="string"/>
         <element label="CSR Assigned" max_length="32" name="csr_assigned" reference="sys_user" type="reference"/>
-        <element label="Reported Quantity" max_length="40" name="reported_quantity" type="string"/>
-        <element label="Customer" max_length="32" name="customer" reference="x_1753077_osandd_customer" type="reference"/>
+        <element label="Reported Quantity" max_length="40" name="reported_quantity" type="integer"/>
+        <element label="Customer" max_length="32" name="customer" read_only="true" reference="x_1753077_osandd_customer" type="reference"/>
         <element label="Shipment" max_length="32" name="shipment" reference="x_1753077_osandd_shipment" type="reference"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="integer" use_dynamic_default="true"/>
-        <element label="Product" max_length="32" name="product" reference="x_1753077_osandd_product" type="reference"/>
+        <element dependent="shipment" dependent_on_field="shipment" label="Product" max_length="32" name="product" reference="x_1753077_osandd_product" type="reference" use_dependent_field="true"/>
         <element label="Sap Transaction" max_length="40" name="sap_transaction" type="string"/>
         <element label="Charge Valid" max_length="40" name="charge_valid" type="boolean"/>
     </element>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1753077_osandd_shipment" version="2" view="new_view">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Shipment - new view" name="x_1753077_osandd_shipment" related_list="NULL" sys_domain="global" view="206c8f488339a2109242ba29feaad3f9">e67c4b488339a2109242ba29feaad3df</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1753077_osandd_osd_request.shipment</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-24 11:33:14</sys_created_on>
+            <sys_id>a27c4b488339a2109242ba29feaad3e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-24 11:33:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Shipment - new view</calculated_name>
+            <filter/>
+            <name>x_1753077_osandd_shipment</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-24 11:33:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e67c4b488339a2109242ba29feaad3df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Shipment - new view</sys_name>
+            <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+            <sys_update_name>sys_ui_related_x_1753077_osandd_shipment_new_view</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-24 11:33:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="new view" name="new_view">206c8f488339a2109242ba29feaad3f9</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="OSandD">c6c28b4c83f5a2109242ba29feaad35a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>osdmod</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1753077_osandd_product</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 10:54:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ae24f4c83f5a2109242ba29feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>osdmod</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sys_app_module_3ae24f4c83f5a2109242ba29feaad35b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 10:54:22</sys_updated_on>
+        <timeline_page/>
+        <title>osdmod</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</application>
+        <file_path/>
+        <instance_id>a051f9ddeb28221c3a48f459bad0cded</instance_id>
+        <instance_name>dev311897</instance_name>
+        <name>sys_app_module_3ae24f4c83f5a2109242ba29feaad35b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="OSandD">c6c28b4c83f5a2109242ba29feaad35a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>osdmod</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1753077_osandd_product</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-24 10:54:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3ae24f4c83f5a2109242ba29feaad35b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>osdmod</sys_name><sys_overrides/><sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package><sys_policy/><sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope><sys_update_name>sys_app_module_3ae24f4c83f5a2109242ba29feaad35b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-24 10:54:22</sys_updated_on><timeline_page/><title>osdmod</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>150060595</payload_hash>
+        <record_name>osdmod</record_name>
+        <reverted_from/>
+        <source>c98b36c083f5a2109242ba29feaad30c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 10:54:22</sys_created_on>
+        <sys_id>11930f8c83f5a2109242ba29feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19701edf84d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 10:54:22</sys_updated_on>
+        <type>Module</type>
+        <update_guid>15930f8c36f5a210efac369e1711fd19</update_guid>
+        <update_guid_history>15930f8c36f5a210efac369e1711fd19:150060595</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="osdmod">64140bcc83f5a2109242ba29feaad3db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 10:56:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>08ad970eb2ef47e493491ef419d28079</sys_id>
+        <sys_metadata>3ae24f4c83f5a2109242ba29feaad35b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>osdmod</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_scope_delete display_value="">1658378a34bf47d084a3409177fe2990</sys_scope_delete>
+        <sys_update_name>sys_app_module_3ae24f4c83f5a2109242ba29feaad35b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3ae24f4c83f5a2109242ba29feaad35b">11930f8c83f5a2109242ba29feaad31a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 10:56:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

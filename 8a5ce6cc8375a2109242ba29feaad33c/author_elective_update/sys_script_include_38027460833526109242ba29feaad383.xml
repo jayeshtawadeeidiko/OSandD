@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1753077_osandd.shipmentInclude</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>shipmentInclude</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var GetShipmentDetails = Class.create();
+GetShipmentDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    getShipmentInfo: function() {
+        var shipmentId = this.getParameter('sysparm_shipment_id');
+        var gr = new GlideRecord('x_1753077_osandd_shipment'); // Replace with your table name
+        if (gr.get('shipment_id', shipmentId)) {
+            var result = {
+                customer: gr.getValue('customer'),
+                product: gr.getValue('product')
+            };
+            return JSON.stringify(result);
+        }
+        return '';
+    }
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 14:03:35</sys_created_on>
+        <sys_id>38027460833526109242ba29feaad383</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>shipmentInclude</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sys_script_include_38027460833526109242ba29feaad383</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 14:17:25</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</application>
+        <file_path/>
+        <instance_id>a051f9ddeb28221c3a48f459bad0cded</instance_id>
+        <instance_name>dev311897</instance_name>
+        <name>sys_script_include_38027460833526109242ba29feaad383</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1753077_osandd.shipmentInclude&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;shipmentInclude&lt;/name&gt;&lt;sandbox_callable&gt;true&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var GetShipmentDetails = Class.create();
+GetShipmentDetails.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    getShipmentInfo: function() {
+        var shipmentId = this.getParameter('sysparm_shipment_id');
+        var gr = new GlideRecord('x_1753077_osandd_shipment'); // Replace with your table name
+        if (gr.get('shipment_id', shipmentId)) {
+            var result = {
+                customer: gr.getValue('customer'),
+                product: gr.getValue('product')
+            };
+            return JSON.stringify(result);
+        }
+        return '';
+    }
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-25 14:03:35&lt;/sys_created_on&gt;&lt;sys_id&gt;38027460833526109242ba29feaad383&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;shipmentInclude&lt;/sys_name&gt;&lt;sys_package display_value="OSandD" source="x_1753077_osandd"&gt;8a5ce6cc8375a2109242ba29feaad33c&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="OSandD"&gt;8a5ce6cc8375a2109242ba29feaad33c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_38027460833526109242ba29feaad383&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-25 14:17:25&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1361825560</payload_hash>
+        <record_name>shipmentInclude</record_name>
+        <reverted_from/>
+        <source>c98b36c083f5a2109242ba29feaad30c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 14:17:25</sys_created_on>
+        <sys_id>55abb46c833526109242ba29feaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19707ce3a610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 14:17:25</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>d9abb46cf2352610a782fb3f4c4e7c70</update_guid>
+        <update_guid_history>d9abb46cf2352610a782fb3f4c4e7c70:-1361825560,437874685635261011bd186ebb6b54bb:-1493863947</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 04:18:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>a79e741b6a874668958ec4964d85c3e9</sys_id>
+        <sys_metadata>38027460833526109242ba29feaad383</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shipmentInclude</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_scope_delete display_value="">1658378a34bf47d084a3409177fe2990</sys_scope_delete>
+        <sys_update_name>sys_script_include_38027460833526109242ba29feaad383</sys_update_name>
+        <sys_update_version display_value="sys_script_include_38027460833526109242ba29feaad383">55abb46c833526109242ba29feaad371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 04:18:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

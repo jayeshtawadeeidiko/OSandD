@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="OSD Request">c80cf20483f5a2109242ba29feaad3b8</sc_cat_item>
+        <sc_category display_value="Kellog's">380efe8483f5a2109242ba29feaad37f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 10:34:21</sys_created_on>
+        <sys_id>c40fb60883f5a2109242ba29feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kellog's.OSD Request</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sc_cat_item_category_c40fb60883f5a2109242ba29feaad32a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 10:34:21</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</application>
+        <file_path/>
+        <instance_id>a051f9ddeb28221c3a48f459bad0cded</instance_id>
+        <instance_name>dev311897</instance_name>
+        <name>sc_cat_item_category_c40fb60883f5a2109242ba29feaad32a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="OSD Request">c80cf20483f5a2109242ba29feaad3b8</sc_cat_item><sc_category display_value="Kellog's">380efe8483f5a2109242ba29feaad37f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-24 10:34:21</sys_created_on><sys_id>c40fb60883f5a2109242ba29feaad32a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Kellog's.OSD Request</sys_name><sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package><sys_policy/><sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope><sys_update_name>sc_cat_item_category_c40fb60883f5a2109242ba29feaad32a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-24 10:34:21</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>840568082</payload_hash>
+        <record_name>Kellog's.OSD Request</record_name>
+        <reverted_from/>
+        <source>c98b36c083f5a2109242ba29feaad30c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 10:34:21</sys_created_on>
+        <sys_id>800fb60883f5a2109242ba29feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19701dba7820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 10:34:21</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c00fb6083af5a210aa3587ebf2566a2e</update_guid>
+        <update_guid_history>c00fb6083af5a210aa3587ebf2566a2e:840568082</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Kellog's.OSD Request">0780878883f5a2109242ba29feaad32c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 10:41:06</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0c901fc8b6b548589906d3721763f939</sys_id>
+        <sys_metadata>c40fb60883f5a2109242ba29feaad32a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kellog's.OSD Request</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_scope_delete display_value="">1658378a34bf47d084a3409177fe2990</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_c40fb60883f5a2109242ba29feaad32a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_c40fb60883f5a2109242ba29feaad32a">800fb60883f5a2109242ba29feaad32f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 10:41:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

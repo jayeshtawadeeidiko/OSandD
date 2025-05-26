@@ -33,7 +33,7 @@
         <name>x_1753077_osandd_osd_request</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="x_1753077_osandd_customer">x_1753077_osandd_customer</reference>
         <reference_cascade_rule/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
         <sys_update_name>sys_dictionary_x_1753077_osandd_osd_request_customer</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-24 09:32:59</sys_updated_on>
+        <sys_updated_on>2025-05-25 12:13:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

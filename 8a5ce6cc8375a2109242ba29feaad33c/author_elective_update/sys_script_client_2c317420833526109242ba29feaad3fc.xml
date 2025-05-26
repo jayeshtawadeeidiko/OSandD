@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>reported_quantity</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>osdRequest</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var ga = new GlideAjax('GetShipmentDetails'); // Script Include name
+    ga.addParam('sysparm_name', 'getShipmentInfo'); // Function inside Script Include
+    ga.addParam('sysparm_shipment_id', newValue);   // Input value (shipment ID)
+
+    ga.getXMLAnswer(function(response) {
+        if (response) {
+            try {
+                var data = JSON.parse(response);
+                if (data.customer && data.product) {
+                    g_form.setValue('customer', data.customer);
+                    g_form.setValue('product', data.product);
+                } else {
+                    showError();
+                }
+            } catch (e) {
+                showError();
+            }
+        } else {
+            showError();
+        }
+
+        function showError() {
+            g_form.showFieldMsg('shipment', 'Shipment not found or error retrieving data', 'error');
+            g_form.setValue('customer', '');
+            g_form.setValue('product', '');
+        }
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 14:06:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c317420833526109242ba29feaad3fc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>osdRequest</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sys_script_client_2c317420833526109242ba29feaad3fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 14:28:22</sys_updated_on>
+        <table>x_1753077_osandd_osd_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</application>
+        <file_path/>
+        <instance_id>a051f9ddeb28221c3a48f459bad0cded</instance_id>
+        <instance_name>dev311897</instance_name>
+        <name>sys_script_client_2c317420833526109242ba29feaad3fc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;reported_quantity&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;osdRequest&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var ga = new GlideAjax('GetShipmentDetails'); // Script Include name
+    ga.addParam('sysparm_name', 'getShipmentInfo'); // Function inside Script Include
+    ga.addParam('sysparm_shipment_id', newValue);   // Input value (shipment ID)
+
+    ga.getXMLAnswer(function(response) {
+        if (response) {
+            try {
+                var data = JSON.parse(response);
+                if (data.customer &amp;&amp; data.product) {
+                    g_form.setValue('customer', data.customer);
+                    g_form.setValue('product', data.product);
+                } else {
+                    showError();
+                }
+            } catch (e) {
+                showError();
+            }
+        } else {
+            showError();
+        }
+
+        function showError() {
+            g_form.showFieldMsg('shipment', 'Shipment not found or error retrieving data', 'error');
+            g_form.setValue('customer', '');
+            g_form.setValue('product', '');
+        }
+    });
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-25 14:06:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2c317420833526109242ba29feaad3fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;osdRequest&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OSandD" source="x_1753077_osandd"&gt;8a5ce6cc8375a2109242ba29feaad33c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OSandD"&gt;8a5ce6cc8375a2109242ba29feaad33c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_2c317420833526109242ba29feaad3fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-25 14:28:22&lt;/sys_updated_on&gt;&lt;table&gt;x_1753077_osandd_osd_request&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1914190228</payload_hash>
+        <record_name>osdRequest</record_name>
+        <reverted_from/>
+        <source>c98b36c083f5a2109242ba29feaad30c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 14:28:22</sys_created_on>
+        <sys_id>b92e7820837526109242ba29feaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19707d842970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 14:28:22</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>312e7820bd7526108a01803a9c37c5be</update_guid>
+        <update_guid_history>312e7820bd7526108a01803a9c37c5be:1914190228,f45d7cacdf3526103f07c7db856b2779:1467886235,469b30e86435261048b8f432521dda9f:-639394616,e419f8283a3526108e682ed395722758:1904795071</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 04:17:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1319f48b19df45eb978abaa337fe57b9</sys_id>
+        <sys_metadata>2c317420833526109242ba29feaad3fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>osdRequest</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_parent display_value="Osandd Osd Request">1f9d224083b5a2109242ba29feaad322</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_scope_delete display_value="">1658378a34bf47d084a3409177fe2990</sys_scope_delete>
+        <sys_update_name>sys_script_client_2c317420833526109242ba29feaad3fc</sys_update_name>
+        <sys_update_version display_value="sys_script_client_2c317420833526109242ba29feaad3fc">b92e7820837526109242ba29feaad3be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 04:17:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

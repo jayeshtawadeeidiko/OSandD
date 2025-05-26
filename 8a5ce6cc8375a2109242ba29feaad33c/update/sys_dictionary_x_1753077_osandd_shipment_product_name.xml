@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="descriptioin" table="x_1753077_osandd_osd_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="product_name" table="x_1753077_osandd_shipment">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Description</column_label>
+        <column_label>Product Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,21 +21,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>descriptioin</element>
+        <element>product_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_1753077_osandd_osd_request</name>
+        <max_length>32</max_length>
+        <name>x_1753077_osandd_shipment</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_1753077_osandd_product">x_1753077_osandd_product</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-24 09:29:22</sys_created_on>
-        <sys_name>Description</sys_name>
+        <sys_created_on>2025-05-25 12:35:38</sys_created_on>
+        <sys_name>Product Name</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name>sys_dictionary_x_1753077_osandd_osd_request_descriptioin</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1753077_osandd_shipment_product_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-24 11:53:49</sys_updated_on>
+        <sys_updated_on>2025-05-25 12:35:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

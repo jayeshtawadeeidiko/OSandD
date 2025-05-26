@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="OSandD">b395182c837126109242ba29feaad3e0</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 11:32:37</sys_created_on>
+        <sys_id>dfe5106c837126109242ba29feaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.OSandD</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_dfe5106c837126109242ba29feaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 11:32:37</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</application>
+        <file_path/>
+        <instance_id>a051f9ddeb28221c3a48f459bad0cded</instance_id>
+        <instance_name>dev311897</instance_name>
+        <name>sc_cat_item_catalog_dfe5106c837126109242ba29feaad347</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="OSandD">b395182c837126109242ba29feaad3e0</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-25 11:32:37</sys_created_on><sys_id>dfe5106c837126109242ba29feaad347</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.OSandD</sys_name><sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package><sys_policy/><sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope><sys_update_name>sc_cat_item_catalog_dfe5106c837126109242ba29feaad347</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-25 11:32:37</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-2088983775</payload_hash>
+        <record_name>Service Catalog.OSandD</record_name>
+        <reverted_from/>
+        <source>c98b36c083f5a2109242ba29feaad30c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 11:32:37</sys_created_on>
+        <sys_id>1fe5106c837126109242ba29feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197073759b50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 11:32:37</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>5fe5106c98712610e8268e743a94df4a</update_guid>
+        <update_guid_history>5fe5106c98712610e8268e743a94df4a:-2088983775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.OSandD">c416d06c837126109242ba29feaad352</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 11:33:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>9dcf04cb0ac844febbf3105f2b0139e4</sys_id>
+        <sys_metadata>dfe5106c837126109242ba29feaad347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.OSandD</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_parent display_value="OSandD">b395182c837126109242ba29feaad3e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_scope_delete display_value="">1658378a34bf47d084a3409177fe2990</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_dfe5106c837126109242ba29feaad347</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_dfe5106c837126109242ba29feaad347">1fe5106c837126109242ba29feaad34b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 11:33:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
