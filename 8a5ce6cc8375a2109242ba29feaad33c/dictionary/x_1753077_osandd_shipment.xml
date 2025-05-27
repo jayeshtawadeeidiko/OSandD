@@ -3,6 +3,7 @@
         <element label="Product Name" max_length="32" name="product_name" reference="x_1753077_osandd_product" type="reference"/>
         <element label="Carrier" max_length="40" name="carrier" type="string"/>
         <element label="Delivered Quantity" max_length="40" name="delivered_quantity" type="integer"/>
+        <element label="Ammount" max_length="40" name="ammount" type="integer"/>
         <element label="Expected Delivery" max_length="40" name="expected_delivery" type="glide_date_time"/>
         <element choice="1" label="Delivery Status" max_length="40" name="delivery_status" type="choice">
             <choice>
@@ -12,7 +13,7 @@
             </choice>
         </element>
         <element label="Actual Delivery" max_length="40" name="actual_delivery" type="glide_date_time"/>
-        <element label="Shipment_id" max_length="40" name="shipment_id" type="string"/>
+        <element display="true" label="Shipment_id" max_length="40" name="shipment_id" type="string"/>
         <element label="Customer" max_length="32" name="customer" reference="x_1753077_osandd_customer" type="reference"/>
         <element label="Tracking Number" max_length="40" name="tracking_number" type="string"/>
         <index name="index">

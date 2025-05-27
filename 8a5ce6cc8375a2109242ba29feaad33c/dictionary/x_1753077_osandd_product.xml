@@ -12,6 +12,7 @@
                 <element inactive_on_update="false" label="Drinks" sequence="5" value="drinks"/>
             </choice>
         </element>
+        <element label="Shelf Life" max_length="40" name="shelf_life" type="integer"/>
         <element label="Description" max_length="40" name="description" type="string"/>
         <element label="SKU" max_length="40" name="sku" type="string"/>
         <element label="Unit Price" max_length="38" name="unit_price" type="decimal"/>

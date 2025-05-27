@@ -29,5 +29,6 @@
         <element dependent="shipment" dependent_on_field="shipment" label="Product" max_length="32" name="product" reference="x_1753077_osandd_product" type="reference" use_dependent_field="true"/>
         <element label="Sap Transaction" max_length="40" name="sap_transaction" type="string"/>
         <element label="Charge Valid" max_length="40" name="charge_valid" type="boolean"/>
+        <element label="Picture" max_length="40" name="picture" type="user_image"/>
     </element>
 </database>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1753077_osandd_osd_request">x_1753077_osandd_osd_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>Number</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 05:46:34</sys_created_on>
+        <sys_id>1b30dc30837566109242ba29feaad379</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Number</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sys_number_1b30dc30837566109242ba29feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 05:46:54</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</application>
+        <file_path/>
+        <instance_id>a051f9ddeb28221c3a48f459bad0cded</instance_id>
+        <instance_name>dev311897</instance_name>
+        <name>sys_number_1b30dc30837566109242ba29feaad379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1753077_osandd_osd_request">x_1753077_osandd_osd_request</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>Number</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-26 05:46:34</sys_created_on><sys_id>1b30dc30837566109242ba29feaad379</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package><sys_policy/><sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope><sys_update_name>sys_number_1b30dc30837566109242ba29feaad379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-26 05:46:54</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1604811413</payload_hash>
+        <record_name>Number</record_name>
+        <reverted_from/>
+        <source>c98b36c083f5a2109242ba29feaad30c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 05:46:57</sys_created_on>
+        <sys_id>6160d070837566109242ba29feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1970b213f4e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 05:46:57</sys_updated_on>
+        <type>Number</type>
+        <update_guid>e160d07048756610f910fcfe060418d7</update_guid>
+        <update_guid_history>e160d07048756610f910fcfe060418d7:-1604811413,0c50dc30c67566108b30112f93d9300c:-572280208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 05:54:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>02f302e51aa041d8924a657b71560840</sys_id>
+        <sys_metadata>1b30dc30837566109242ba29feaad379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_parent display_value="OS&amp;D Request">1f9d224083b5a2109242ba29feaad322</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_scope_delete display_value="">1658378a34bf47d084a3409177fe2990</sys_scope_delete>
+        <sys_update_name>sys_number_1b30dc30837566109242ba29feaad379</sys_update_name>
+        <sys_update_version display_value="sys_number_1b30dc30837566109242ba29feaad379">6160d070837566109242ba29feaad3d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 05:54:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
