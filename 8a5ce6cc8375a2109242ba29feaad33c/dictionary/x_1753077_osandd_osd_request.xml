@@ -20,6 +20,8 @@
         <element label="Short Description" max_length="40" name="short_description" type="string"/>
         <element label="Description" max_length="40" name="descriptioin" type="string"/>
         <element label="Reported Date" max_length="40" name="reported_date" type="glide_date_time"/>
+        <element label="Keeping" max_length="40" name="keeping" type="boolean"/>
+        <element label="Invoiced" max_length="40" name="invoiced" type="boolean"/>
         <element label="Resolution Note" max_length="40" name="resolution_note" type="string"/>
         <element label="CSR Assigned" max_length="32" name="csr_assigned" reference="sys_user" type="reference"/>
         <element label="Reported Quantity" max_length="40" name="reported_quantity" type="integer"/>

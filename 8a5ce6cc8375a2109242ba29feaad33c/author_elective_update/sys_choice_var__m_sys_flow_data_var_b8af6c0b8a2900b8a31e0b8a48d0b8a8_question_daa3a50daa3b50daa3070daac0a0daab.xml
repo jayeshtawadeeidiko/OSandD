@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="question_daa3a50daa3b50daa3070daac0a0daab" table="var__m_sys_flow_data_var_b8af6c0b8a2900b8a31e0b8a48d0b8a8" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>question_daa3a50daa3b50daa3070daac0a0daab</element>
+            <name>var__m_sys_flow_data_var_b8af6c0b8a2900b8a31e0b8a48d0b8a8</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-30 13:28:26</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>question_daa3a50daa3b50daa3070daac0a0daab</sys_name>
+            <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_flow_data_var_b8af6c0b8a2900b8a31e0b8a48d0b8a8_question_daa3a50daa3b50daa3070daac0a0daab</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-30 13:28:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_daa3a50daa3b50daa3070daac0a0daab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KDC carrier yard</label>
+            <language>en</language>
+            <name>var__m_sys_flow_data_var_b8af6c0b8a2900b8a31e0b8a48d0b8a8</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-30 13:28:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-30 13:28:26</sys_updated_on>
+            <value>kdc_carrier_yard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_daa3a50daa3b50daa3070daac0a0daab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>custoers kdc</label>
+            <language>en</language>
+            <name>var__m_sys_flow_data_var_b8af6c0b8a2900b8a31e0b8a48d0b8a8</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-30 13:28:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-30 13:28:26</sys_updated_on>
+            <value>custoers_kdc</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

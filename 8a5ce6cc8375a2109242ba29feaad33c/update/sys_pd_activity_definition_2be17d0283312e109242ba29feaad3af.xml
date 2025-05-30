@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type/>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>UBER fr</label>
+        <name>uber_fr</name>
+        <outputs/>
+        <required_roles/>
+        <source>9382b32583b1aa109242ba29feaad373</source>
+        <source_type>sys_hub_action_type_definition</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 10:05:47</sys_created_on>
+        <sys_id>2be17d0283312e109242ba29feaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UBER fr</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_2be17d0283312e109242ba29feaad3af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 10:05:47</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=2be17d0283312e109242ba29feaad3af"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2be17d0283312e109242ba29feaad3af"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_9382b32583b1aa109242ba29feaad373^id=2be17d0283312e109242ba29feaad3af"/>
+</record_update>

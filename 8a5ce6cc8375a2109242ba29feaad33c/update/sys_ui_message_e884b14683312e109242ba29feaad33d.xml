@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code>playbook_6168a5c283fdea109242ba29feaad3f8</code>
+        <commented_message/>
+        <key>kdc Short</key>
+        <language>en</language>
+        <message>kdc Short</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 10:16:44</sys_created_on>
+        <sys_id>e884b14683312e109242ba29feaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kdc Short</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sys_ui_message_e884b14683312e109242ba29feaad33d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 10:16:44</sys_updated_on>
+    </sys_ui_message>
+</record_update>
