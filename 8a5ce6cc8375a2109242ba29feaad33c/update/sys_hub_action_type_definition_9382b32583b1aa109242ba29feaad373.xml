@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9382b32583b1aa109242ba29feaad373</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Uber Frieght API</sys_name>
         <sys_overrides/>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9382b32583b1aa109242ba29feaad373</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-29 06:47:32</sys_updated_on>
+        <sys_updated_on>2025-06-06 09:33:46</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -363,18 +363,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=e3f477a983b1aa109242ba29feaad3e7"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>e3f477a983b1aa109242ba29feaad3e7</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-29 06:21:09</sys_created_on>
-        <sys_id>fbf4b7a983b1aa109242ba29feaad307</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-29 06:21:09</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>body</field>
         <id>e3f477a983b1aa109242ba29feaad3e7</id>
         <sys_created_by>admin</sys_created_by>
@@ -385,18 +373,6 @@
         <sys_updated_on>2025-05-29 06:21:09</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_e3f477a983b1aa109242ba29feaad3e7</table>
         <value>{{step[022c3c8d-ba1a-4303-a94b-8c8d083bfcc0].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>e3f477a983b1aa109242ba29feaad3e7</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-29 06:21:09</sys_created_on>
-        <sys_id>bff4b7a983b1aa109242ba29feaad307</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-29 06:21:09</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_e3f477a983b1aa109242ba29feaad3e7^id=e3f477a983b1aa109242ba29feaad3e7"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=e3f477a983b1aa109242ba29feaad3e7"/>
@@ -666,11 +642,11 @@
         <sys_created_on>2025-05-29 06:26:06</sys_created_on>
         <sys_id>5826bfe983b1aa109242ba29feaad319</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>returned</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e3f477a983b1aa109242ba29feaad3e7_returned_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:26:06</sys_updated_on>
         <url/>
@@ -689,11 +665,11 @@
         <sys_created_on>2025-05-29 06:21:08</sys_created_on>
         <sys_id>6bf4b7a983b1aa109242ba29feaad300</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>freight</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e3f477a983b1aa109242ba29feaad3e7_freight_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:21:08</sys_updated_on>
         <url/>
@@ -1075,11 +1051,11 @@
         <sys_created_on>2025-05-29 06:26:06</sys_created_on>
         <sys_id>5c26bfe983b1aa109242ba29feaad339</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>returned</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9382b32583b1aa109242ba29feaad373_returned_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:26:06</sys_updated_on>
         <url/>
@@ -1098,11 +1074,11 @@
         <sys_created_on>2025-05-29 06:21:09</sys_created_on>
         <sys_id>fbf4b7a983b1aa109242ba29feaad30f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9382b32583b1aa109242ba29feaad373___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:21:09</sys_updated_on>
         <url/>
@@ -1121,11 +1097,11 @@
         <sys_created_on>2025-05-29 06:21:09</sys_created_on>
         <sys_id>fbf4b7a983b1aa109242ba29feaad31a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9382b32583b1aa109242ba29feaad373___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:21:09</sys_updated_on>
         <url/>
@@ -1144,11 +1120,11 @@
         <sys_created_on>2025-05-29 06:21:09</sys_created_on>
         <sys_id>fff4b7a983b1aa109242ba29feaad313</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>freight</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9382b32583b1aa109242ba29feaad373_freight_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:21:09</sys_updated_on>
         <url/>
@@ -1350,18 +1326,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6195b3e983b1aa109242ba29feaad346"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>6195b3e983b1aa109242ba29feaad346</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-29 06:23:44</sys_created_on>
-        <sys_id>3595b3e983b1aa109242ba29feaad364</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-29 06:23:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>body</field>
         <id>6195b3e983b1aa109242ba29feaad346</id>
         <sys_created_by>admin</sys_created_by>
@@ -1372,18 +1336,6 @@
         <sys_updated_on>2025-05-29 06:23:44</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_6195b3e983b1aa109242ba29feaad346</table>
         <value>{{step[022c3c8d-ba1a-4303-a94b-8c8d083bfcc0].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>6195b3e983b1aa109242ba29feaad346</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-29 06:23:44</sys_created_on>
-        <sys_id>f595b3e983b1aa109242ba29feaad364</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-29 06:23:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_6195b3e983b1aa109242ba29feaad346^id=6195b3e983b1aa109242ba29feaad346"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=6195b3e983b1aa109242ba29feaad346"/>
@@ -1653,11 +1605,11 @@
         <sys_created_on>2025-05-29 06:47:31</sys_created_on>
         <sys_id>860bbf6183f1aa109242ba29feaad3fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>returned</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_6195b3e983b1aa109242ba29feaad346_returned_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:47:31</sys_updated_on>
         <url/>
@@ -1676,11 +1628,11 @@
         <sys_created_on>2025-05-29 06:23:44</sys_created_on>
         <sys_id>b595b3e983b1aa109242ba29feaad351</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>freight</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_6195b3e983b1aa109242ba29feaad346_freight_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:23:44</sys_updated_on>
         <url/>
@@ -2243,11 +2195,11 @@
         <sys_created_on>2025-05-29 06:23:44</sys_created_on>
         <sys_id>3995b3e983b1aa109242ba29feaad36b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2595b3e983b1aa109242ba29feaad323___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:23:44</sys_updated_on>
         <url/>
@@ -2266,11 +2218,11 @@
         <sys_created_on>2025-05-29 06:47:32</sys_created_on>
         <sys_id>5a0bff6183f1aa109242ba29feaad30e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>returned</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2595b3e983b1aa109242ba29feaad323_returned_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:47:32</sys_updated_on>
         <url/>
@@ -2289,11 +2241,11 @@
         <sys_created_on>2025-05-29 06:23:45</sys_created_on>
         <sys_id>7d95b3e983b1aa109242ba29feaad375</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2595b3e983b1aa109242ba29feaad323___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:23:45</sys_updated_on>
         <url/>
@@ -2312,11 +2264,11 @@
         <sys_created_on>2025-05-29 06:23:44</sys_created_on>
         <sys_id>f995b3e983b1aa109242ba29feaad36f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>freight</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2595b3e983b1aa109242ba29feaad323_freight_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-29 06:23:44</sys_updated_on>
         <url/>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="question_c691640c693e30c6983b0c691a60c694" label="Customer aggried to sell through product?" language="en" table="var__m_sys_flow_data_var_807c270807efa080763d08078920807d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>question_c691640c693e30c6983b0c691a60c694</element>
+            <help/>
+            <hint/>
+            <label>Customer aggried to sell through product?</label>
+            <language>en</language>
+            <name>var__m_sys_flow_data_var_807c270807efa080763d08078920807d</name>
+            <plural>Customer aggried to sell through product?</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-30 12:34:29</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer aggried to sell through product?</sys_name>
+            <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_flow_data_var_807c270807efa080763d08078920807d_question_c691640c693e30c6983b0c691a60c694_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-30 12:34:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

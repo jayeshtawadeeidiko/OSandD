@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="osdPortal">596cfd1c8342a2109242ba29feaad378</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>Home</name>
+        <optional_parameters>query,views,activityLogs,extraParams,fields,screen,selectedTabIndex,userPrefs</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>home</route_type>
+        <screen_type display_value="Home">3fbcbd9c8342a2109242ba29feaad3d4</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 10:39:04</sys_created_on>
+        <sys_id>bfbcbd9c8342a2109242ba29feaad3d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sys_ux_app_route_bfbcbd9c8342a2109242ba29feaad3d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 10:59:04</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=bfbcbd9c8342a2109242ba29feaad3d7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</application>
+        <file_path/>
+        <instance_id>a051f9ddeb28221c3a48f459bad0cded</instance_id>
+        <instance_name>dev311897</instance_name>
+        <name>sys_ux_app_route_bfbcbd9c8342a2109242ba29feaad3d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="osdPortal">596cfd1c8342a2109242ba29feaad378</app_config><description/><extension_point/><fields>table,sysId</fields><icon/><name>Home</name><optional_parameters>query,views,activityLogs,extraParams,fields,screen,selectedTabIndex,userPrefs</optional_parameters><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>home</route_type><screen_type display_value="Home">3fbcbd9c8342a2109242ba29feaad3d4</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-06 10:39:04</sys_created_on><sys_id>bfbcbd9c8342a2109242ba29feaad3d7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Home</sys_name><sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package><sys_policy/><sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope><sys_update_name>sys_ux_app_route_bfbcbd9c8342a2109242ba29feaad3d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-06 10:59:04</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=bfbcbd9c8342a2109242ba29feaad3d7"/></record_update>]]></payload>
+        <payload_hash>1559817068</payload_hash>
+        <record_name>Home</record_name>
+        <reverted_from/>
+        <source>caeee418838a62109242ba29feaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 10:59:04</sys_created_on>
+        <sys_id>34514a148382a2109242ba29feaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19744e4f3680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 10:59:04</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>b8514a14ab82a2102a6aad293cf013d5</update_guid>
+        <update_guid_history>b8514a14ab82a2102a6aad293cf013d5:1559817068,bfbcbd9c7c42a2108ad5498bc23c4cd9:444073446</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 11:03:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>16f77c2c3933473ab425de6967b40a44</sys_id>
+        <sys_metadata>bfbcbd9c8342a2109242ba29feaad3d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_scope_delete display_value="">1658378a34bf47d084a3409177fe2990</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_bfbcbd9c8342a2109242ba29feaad3d7</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_bfbcbd9c8342a2109242ba29feaad3d7">34514a148382a2109242ba29feaad3d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 11:03:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -41,7 +41,7 @@
         <update_guid_history>bc7e7ac447f5a2103ffdd70713d7947c:840568082</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Kellog's.OSD Request">859e3ec483f5a2109242ba29feaad37c</sys_audit_delete>
+        <sys_audit_delete display_value="">859e3ec483f5a2109242ba29feaad37c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-24 10:32:30</sys_created_on>

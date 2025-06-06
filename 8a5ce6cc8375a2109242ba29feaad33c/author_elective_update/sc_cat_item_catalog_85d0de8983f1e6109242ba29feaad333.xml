@@ -41,7 +41,7 @@
         <update_guid_history>05d0de89d4f1e61036b9b7288e64e136:-1845953341</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.namerepro">6d0116c983f1e6109242ba29feaad300</sys_audit_delete>
+        <sys_audit_delete display_value="">6d0116c983f1e6109242ba29feaad300</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-27 09:47:24</sys_created_on>

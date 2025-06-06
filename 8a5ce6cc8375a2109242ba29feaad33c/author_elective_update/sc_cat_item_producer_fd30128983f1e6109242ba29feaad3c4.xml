@@ -173,7 +173,7 @@
         <update_guid_history>99893a8d67b5e610596d47d7a2569fe1:-1890996053,6641dac92ef1e6109d6fc65cb254f871:2094094136,6901d2c97df1e6108e10ea0d1c9ea9f0:1989470649,f801d2c97bf1e6103291086521cc3b7d:950506353,78d0de892ff1e610300be9b76592581d:-1530286574,70d0de8932f1e610bacbb98c5322b211:283887795,0cd09e89f3f1e610ef2200d66f6293c1:2098062164,04d09e8952f1e610195c5402209554b6:-382730763,c4d09e8936f1e6107ed1a8484ef29e9e:1431443606,4c709689f1f1e61069a12587b4e8bf98:-1049349321,0c60168988f1e610b880336ad4955096:-570259357,5a3012891ff1e610212482104535ced1:827895922,7930128913f1e6102a9fad108bc315de:653005220</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="namerepro">11893a8d83b5e6109242ba29feaad3e7</sys_audit_delete>
+        <sys_audit_delete display_value="">11893a8d83b5e6109242ba29feaad3e7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-27 12:44:21</sys_created_on>

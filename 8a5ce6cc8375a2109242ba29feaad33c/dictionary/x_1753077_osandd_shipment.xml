@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="bb82bac483b5a2109242ba29feaad3a9" label="Shipment" max_length="40" name="x_1753077_osandd_shipment" type="collection">
-        <element label="Product Name" max_length="32" name="product_name" reference="x_1753077_osandd_product" type="reference"/>
-        <element label="Carrier" max_length="40" name="carrier" type="string"/>
+    <element db_object_id="bb82bac483b5a2109242ba29feaad3a9" label="Shipment" max_length="40" name="x_1753077_osandd_shipment" text_index="true" type="collection">
         <element label="Delivered Quantity" max_length="40" name="delivered_quantity" type="integer"/>
+        <element label="Actual Delivery" max_length="40" name="actual_delivery" type="glide_date_time"/>
         <element label="Ammount" max_length="40" name="ammount" type="integer"/>
+        <element display="true" label="Shipment_id" max_length="40" name="shipment_id" type="string"/>
         <element label="Expected Delivery" max_length="40" name="expected_delivery" type="glide_date_time"/>
+        <element label="Customer" max_length="32" name="customer" reference="x_1753077_osandd_customer" type="reference"/>
+        <element label="Carrier" max_length="40" name="carrier" type="string"/>
         <element choice="1" label="Delivery Status" max_length="40" name="delivery_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Failed" sequence="1" value="failed"/>
-                <element inactive_on_update="false" label="Delayed" sequence="2" value="delayed"/>
                 <element inactive_on_update="false" label="Delivered" sequence="0" value="delivered"/>
+                <element inactive_on_update="false" label="Delayed" sequence="2" value="delayed"/>
+                <element inactive_on_update="false" label="Failed" sequence="1" value="failed"/>
             </choice>
         </element>
-        <element label="Actual Delivery" max_length="40" name="actual_delivery" type="glide_date_time"/>
-        <element display="true" label="Shipment_id" max_length="40" name="shipment_id" type="string"/>
-        <element label="Customer" max_length="32" name="customer" reference="x_1753077_osandd_customer" type="reference"/>
         <element label="Tracking Number" max_length="40" name="tracking_number" type="string"/>
+        <element label="Product Name" max_length="32" name="product_name" reference="x_1753077_osandd_product" type="reference"/>
         <index name="index">
             <element name="customer"/>
         </index>

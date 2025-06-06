@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>596cfd1c8342a2109242ba29feaad378</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="UXR Base Unified App">c4b650c2c702201072b211d4d8c260a4</parent_app>
+        <path>osdportal</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 10:37:32</sys_created_on>
+        <sys_id>116cb59c8342a2109242ba29feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>osdPortal</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>sys_ux_page_registry_116cb59c8342a2109242ba29feaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 10:37:32</sys_updated_on>
+        <title>osdPortal</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</application>
+        <file_path/>
+        <instance_id>a051f9ddeb28221c3a48f459bad0cded</instance_id>
+        <instance_name>dev311897</instance_name>
+        <name>sys_ux_page_registry_116cb59c8342a2109242ba29feaad3f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>596cfd1c8342a2109242ba29feaad378</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="UXR Base Unified App">c4b650c2c702201072b211d4d8c260a4</parent_app><path>osdportal</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-06 10:37:32</sys_created_on><sys_id>116cb59c8342a2109242ba29feaad3f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>osdPortal</sys_name><sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package><sys_policy/><sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope><sys_update_name>sys_ux_page_registry_116cb59c8342a2109242ba29feaad3f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-06 10:37:32</sys_updated_on><title>osdPortal</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-523442520</payload_hash>
+        <record_name>osdPortal</record_name>
+        <reverted_from/>
+        <source>caeee418838a62109242ba29feaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 10:37:32</sys_created_on>
+        <sys_id>996cb59c8342a2109242ba29feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19744d13c1d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 10:37:32</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>9d6cb59ca642a210dedd31425f7b88f5</update_guid>
+        <update_guid_history>9d6cb59ca642a210dedd31425f7b88f5:-523442520</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 11:09:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>7127b3b80f0542aba278e1d6dd0bd491</sys_id>
+        <sys_metadata>116cb59c8342a2109242ba29feaad3f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>osdPortal</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_scope_delete display_value="">1658378a34bf47d084a3409177fe2990</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_116cb59c8342a2109242ba29feaad3f3</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_116cb59c8342a2109242ba29feaad3f3">996cb59c8342a2109242ba29feaad3f6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 11:09:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

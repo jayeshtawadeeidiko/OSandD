@@ -41,7 +41,7 @@
         <update_guid_history>fc7e7ac4dff5a2102a19ecbe2842706a:-102217689</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.OSD Request">789e3ec483f5a2109242ba29feaad357</sys_audit_delete>
+        <sys_audit_delete display_value="">789e3ec483f5a2109242ba29feaad357</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-24 10:32:30</sys_created_on>

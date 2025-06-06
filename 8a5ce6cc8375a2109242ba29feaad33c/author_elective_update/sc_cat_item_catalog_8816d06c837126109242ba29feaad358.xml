@@ -41,7 +41,7 @@
         <update_guid_history>cc16d06c32712610c74af2c7f72bf367:-2088983775</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.OSandD">0236946c837126109242ba29feaad3c8</sys_audit_delete>
+        <sys_audit_delete display_value="">0236946c837126109242ba29feaad3c8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-25 11:33:54</sys_created_on>

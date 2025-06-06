@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1753077_osandd_osandd_approvals_search_profile_default_spell_check_dictionary">e2207cdc838a62109242ba29feaad38c</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>true</marked_for_deletion>
+        <profile display_value="osandd-approvals Search Profile">f820f8dca48a6210a0ffb63c1b1b6586</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 05:04:29</sys_created_on>
+        <sys_id>2e207cdc838a62109242ba29feaad38f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1753077_osandd_osandd_approvals_search_profile_default_spell_check_dictionary.osandd-approvals Search Profile</sys_name>
+        <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_2e207cdc838a62109242ba29feaad38f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 09:32:51</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

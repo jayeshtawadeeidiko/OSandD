@@ -1,36 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1f9d224083b5a2109242ba29feaad322" label="OS&amp;D Request" max_length="40" name="x_1753077_osandd_osd_request" type="collection">
-        <element choice="1" label="Issue Type" max_length="40" name="issue_type" type="choice">
+    <element db_object_id="1f9d224083b5a2109242ba29feaad322" label="OS&amp;D Request" max_length="40" name="x_1753077_osandd_osd_request" text_index="true" type="collection">
+        <element label="CSR Assigned" max_length="32" name="csr_assigned" reference="sys_user" type="reference"/>
+        <element label="Reported Date" max_length="40" name="reported_date" type="glide_date_time"/>
+        <element label="Keeping" max_length="40" name="keeping" type="boolean"/>
+        <element label="Reported Quantity" max_length="40" name="reported_quantity" read_only="true" type="integer"/>
+        <element label="Sap Transaction" max_length="40" name="sap_transaction" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Returned" sequence="4" value="returned"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Under Review" sequence="1" value="under_review"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="40" name="short_description" read_only="true" type="string"/>
+        <element dependent="shipment" dependent_on_field="shipment" label="Product" max_length="32" name="product" read_only="true" reference="x_1753077_osandd_product" type="reference" use_dependent_field="true"/>
+        <element label="Invoiced" max_length="40" name="invoiced" type="boolean"/>
+        <element label="Shipment" max_length="32" name="shipment" reference="x_1753077_osandd_shipment" type="reference"/>
+        <element label="Customer" max_length="32" name="customer" read_only="true" reference="x_1753077_osandd_customer" type="reference"/>
+        <element label="Charge Valid" max_length="40" name="charge_valid" type="boolean"/>
+        <element choice="1" label="Issue Type" max_length="40" name="issue_type" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Damage" sequence="2" value="damage"/>
                 <element inactive_on_update="false" label="Over" sequence="0" value="over"/>
                 <element inactive_on_update="false" label="Short" sequence="1" value="short"/>
             </choice>
         </element>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Returned" sequence="4" value="returned"/>
-                <element inactive_on_update="false" label="Under Review" sequence="1" value="under_review"/>
-                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
-                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
-                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
-                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
-            </choice>
-        </element>
-        <element label="Short Description" max_length="40" name="short_description" type="string"/>
-        <element label="Description" max_length="40" name="descriptioin" type="string"/>
-        <element label="Reported Date" max_length="40" name="reported_date" type="glide_date_time"/>
-        <element label="Keeping" max_length="40" name="keeping" type="boolean"/>
-        <element label="Invoiced" max_length="40" name="invoiced" type="boolean"/>
-        <element label="Resolution Note" max_length="40" name="resolution_note" type="string"/>
-        <element label="CSR Assigned" max_length="32" name="csr_assigned" reference="sys_user" type="reference"/>
-        <element label="Reported Quantity" max_length="40" name="reported_quantity" type="integer"/>
-        <element label="Customer" max_length="32" name="customer" read_only="true" reference="x_1753077_osandd_customer" type="reference"/>
-        <element label="Shipment" max_length="32" name="shipment" reference="x_1753077_osandd_shipment" type="reference"/>
-        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="integer" use_dynamic_default="true"/>
-        <element dependent="shipment" dependent_on_field="shipment" label="Product" max_length="32" name="product" reference="x_1753077_osandd_product" type="reference" use_dependent_field="true"/>
-        <element label="Sap Transaction" max_length="40" name="sap_transaction" type="string"/>
-        <element label="Charge Valid" max_length="40" name="charge_valid" type="boolean"/>
         <element label="Picture" max_length="40" name="picture" type="user_image"/>
+        <element label="Description" max_length="40" name="descriptioin" read_only="true" type="string"/>
+        <element label="Resolution Note" max_length="40" name="resolution_note" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="integer" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="csr_assigned"/>
+        </index>
+        <index name="index2">
+            <element name="customer"/>
+        </index>
+        <index name="index3">
+            <element name="product"/>
+        </index>
+        <index name="index4">
+            <element name="shipment"/>
+        </index>
     </element>
 </database>

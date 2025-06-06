@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>58bb6d858331e6109242ba29feaad339</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>KDC API Call</sys_name>
         <sys_overrides/>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_58bb6d858331e6109242ba29feaad339</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-28 06:24:35</sys_updated_on>
+        <sys_updated_on>2025-06-06 09:33:45</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -588,11 +588,11 @@
         <sys_created_on>2025-05-27 09:33:16</sys_created_on>
         <sys_id>eecd4e8583f1e6109242ba29feaad39e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_dacd4e8583f1e6109242ba29feaad38f_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 09:33:16</sys_updated_on>
         <url/>
@@ -655,18 +655,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=e188669183792a109242ba29feaad304"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>e188669183792a109242ba29feaad304</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-28 06:08:34</sys_created_on>
-        <sys_id>3d88669183792a109242ba29feaad31b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-28 06:08:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>body</field>
         <id>e188669183792a109242ba29feaad304</id>
         <sys_created_by>admin</sys_created_by>
@@ -677,18 +665,6 @@
         <sys_updated_on>2025-05-28 06:08:34</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_e188669183792a109242ba29feaad304</table>
         <value>{{step[8fd8eb3d-74e7-4255-97cc-0f85238147e5].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>e188669183792a109242ba29feaad304</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-28 06:08:34</sys_created_on>
-        <sys_id>f188669183792a109242ba29feaad31c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-28 06:08:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_e188669183792a109242ba29feaad304^id=e188669183792a109242ba29feaad304"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=e188669183792a109242ba29feaad304"/>
@@ -875,11 +851,11 @@
         <sys_created_on>2025-05-28 06:08:34</sys_created_on>
         <sys_id>3d88669183792a109242ba29feaad313</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>validity</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e188669183792a109242ba29feaad304_validity_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-28 06:08:34</sys_updated_on>
         <url/>
@@ -1270,11 +1246,11 @@
         <sys_created_on>2025-05-27 11:24:48</sys_created_on>
         <sys_id>d05762098375e6109242ba29feaad39c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>shortageCheck</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_58bb6d858331e6109242ba29feaad339_shortagecheck_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 11:24:48</sys_updated_on>
         <url/>
@@ -1294,11 +1270,11 @@
         <sys_created_on>2025-05-27 09:33:16</sys_created_on>
         <sys_id>2acd4e8583f1e6109242ba29feaad3e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_58bb6d858331e6109242ba29feaad339___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 09:33:16</sys_updated_on>
         <url/>
@@ -1317,11 +1293,11 @@
         <sys_created_on>2025-05-27 09:33:16</sys_created_on>
         <sys_id>62cd4e8583f1e6109242ba29feaad3eb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>variable</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_58bb6d858331e6109242ba29feaad339_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 09:33:16</sys_updated_on>
         <url/>
@@ -1340,11 +1316,11 @@
         <sys_created_on>2025-05-27 09:33:16</sys_created_on>
         <sys_id>66cd4e8583f1e6109242ba29feaad3f0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_58bb6d858331e6109242ba29feaad339___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 09:33:16</sys_updated_on>
         <url/>
@@ -1546,18 +1522,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9a88669183792a109242ba29feaad3ce"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>9a88669183792a109242ba29feaad3ce</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-28 06:08:37</sys_created_on>
-        <sys_id>e688669183792a109242ba29feaad3e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-28 06:08:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>body</field>
         <id>9a88669183792a109242ba29feaad3ce</id>
         <sys_created_by>admin</sys_created_by>
@@ -1568,18 +1532,6 @@
         <sys_updated_on>2025-05-28 06:08:37</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_9a88669183792a109242ba29feaad3ce</table>
         <value>{{step[8fd8eb3d-74e7-4255-97cc-0f85238147e5].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>9a88669183792a109242ba29feaad3ce</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-28 06:08:37</sys_created_on>
-        <sys_id>aa88669183792a109242ba29feaad3e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-28 06:08:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9a88669183792a109242ba29feaad3ce^id=9a88669183792a109242ba29feaad3ce"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=9a88669183792a109242ba29feaad3ce"/>
@@ -1766,11 +1718,11 @@
         <sys_created_on>2025-05-28 06:08:37</sys_created_on>
         <sys_id>1288669183792a109242ba29feaad3da</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>validity</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_9a88669183792a109242ba29feaad3ce_validity_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-28 06:08:37</sys_updated_on>
         <url/>
@@ -2239,11 +2191,11 @@
         <sys_created_on>2025-05-27 09:34:11</sys_created_on>
         <sys_id>840e82c583f1e6109242ba29feaad3be</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_c80e82c583f1e6109242ba29feaad3b1_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 09:34:11</sys_updated_on>
         <url/>
@@ -2634,11 +2586,11 @@
         <sys_created_on>2025-05-27 11:25:05</sys_created_on>
         <sys_id>9067e2098375e6109242ba29feaad3c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>shortageCheck</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_000e82c583f1e6109242ba29feaad3a7_shortagecheck_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 11:25:05</sys_updated_on>
         <url/>
@@ -2658,11 +2610,11 @@
         <sys_created_on>2025-05-27 09:34:12</sys_created_on>
         <sys_id>840e82c583f1e6109242ba29feaad3ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_000e82c583f1e6109242ba29feaad3a7___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 09:34:12</sys_updated_on>
         <url/>
@@ -2681,11 +2633,11 @@
         <sys_created_on>2025-05-27 09:34:12</sys_created_on>
         <sys_id>900e82c583f1e6109242ba29feaad3f7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_000e82c583f1e6109242ba29feaad3a7___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 09:34:12</sys_updated_on>
         <url/>
@@ -2704,11 +2656,11 @@
         <sys_created_on>2025-05-27 09:34:12</sys_created_on>
         <sys_id>cc0e82c583f1e6109242ba29feaad3f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>variable</sys_name>
         <sys_package display_value="OSandD" source="x_1753077_osandd">8a5ce6cc8375a2109242ba29feaad33c</sys_package>
         <sys_policy/>
         <sys_scope display_value="OSandD">8a5ce6cc8375a2109242ba29feaad33c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_000e82c583f1e6109242ba29feaad3a7_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-27 09:34:12</sys_updated_on>
         <url/>
